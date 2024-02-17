@@ -6,16 +6,17 @@ header{
         width: 85%;
         margin: 20px auto;
 }
+
+/*Banner section starts*/
 .banner{
     background-image: url('../images/Banner-Image.png');
     background-repeat: no-repeat;
-    /*height: 600px;
-    width: 1320px;*/
+    height: 600px;
+    width: 1280px;
     background-position: center;
     color:aliceblue;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 border-radius: 15px;
 }
 .banner h4{
@@ -28,3 +29,27 @@ border-radius: 15px;
     font-size: 60px;
     color: white;
 }
+
+/*Sale section starts*/
+.sale{
+    text-align: center;
+    margin: 120px 0px 0px;
+}
+.sale h1{
+    font-size: 70px;
+    color: red;
+    padding: 0px 0px 20px;
+}
+.sale p{
+    font-size: 16px;
+    color: red;
+    padding: 0px 0px 10px;
+}
+.sale h3{
+    font-size: 30px;
+    padding: 0px 0px 20px;
+}
+.sale img{
+    width: 700px;
+}
+
