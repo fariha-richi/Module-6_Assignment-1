@@ -1,9 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* shared style */
+/*Shared style*/
 .merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -195,6 +195,47 @@ border-radius: 15px;
     color: white;
     font-size: 20px;
 }
+/*Wishing section of main starts*/
+.offer{
+    margin: 50px 0px 0px;
+    padding: 50px 100px 0px;
+    display: flex;
+    gap: 80px;
+    justify-content:space-evenly;
+    
+  }
+  .new-offer{
+    width: 60%;
+    padding: 100px 0px 0px;
+  }
+  .new-offer h5{
+    font-size: 16px;
+    color: red;
+  }
+  .new-offer h1{
+    font-size: 50px;
+  }
+  .new-offer p{
+    color: gray;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0px 100px 0px 0px;
+  }
+  .wishing-img{
+    border: 15px red solid;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  .wishing-content h1{
+    font-size: 50px;
+    color: red;
+    padding: 100px 50px 0px;
+  }
+ .wishing-content p{
+    color: gray;
+    font-size: 20px;
+    line-height: 25px;
+ }
 
 /*Footer starts here*/
 .footer{
