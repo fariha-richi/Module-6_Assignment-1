@@ -195,3 +195,47 @@ border-radius: 15px;
     color: white;
     font-size: 20px;
 }
+
+/*Footer starts here*/
+.footer{
+    height: 60vh;
+    background-color: rgb(2, 2, 29);
+    margin: 100px 0px 0px;
+    padding: 100px 50px 0px;
+}
+.footer hr{
+    width: 75%;
+    border: 1px solid rgb(51, 51, 51);
+    margin: 0px 180px 0px;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.address address{
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.phone , .website{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.social-icon{
+    text-align: center;
+    margin: 40px auto;
+}
+.social-icon img{
+    margin-left: 15px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 50px 0px;
+}
+.copyright h6{
+    font-size: 20px;
+}
