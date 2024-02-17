@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -8,9 +8,9 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-.btn-primary{
+.btn-primary {
     background-color: red;
     color: white;
     padding: 15px 25px;
@@ -22,145 +22,277 @@
 }
 
 /*Header starts here*/
-header{
-        width: 85%;
-        margin: 20px auto;
+header {
+    width: 85%;
+    margin: 20px auto;
 }
 
 /*Banner section of header starts*/
-.banner{
+.banner {
     background-image: url('../images/Banner-Image.png');
     background-repeat: no-repeat;
     height: 600px;
     width: 1280px;
     background-position: center;
-    color:aliceblue;
-text-align: center;
-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
-border-radius: 15px;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
 }
-.banner h4{
+
+.banner h4 {
     padding: 180px 180px 10px;
-    font-size:30px;
+    font-size: 30px;
     color: white;
 }
-.banner h1{
-    padding:10px 350px 200px;
+
+.banner h1 {
+    padding: 10px 350px 200px;
     font-size: 60px;
     color: white;
 }
 
 /*Sale section of header starts*/
-.sale{
+.sale {
     text-align: center;
     margin: 120px 0px 0px;
 }
-.sale h1{
+
+.sale h1 {
     font-size: 70px;
     color: red;
     padding: 0px 0px 20px;
 }
-.sale p{
+
+.sale p {
     font-size: 16px;
     color: red;
     padding: 0px 0px 10px;
 }
-.sale h3{
+
+.sale h3 {
     font-size: 30px;
     padding: 0px 0px 20px;
 }
-.sale img{
+
+.sale img {
     width: 700px;
 }
 
 /*Welcome section of header starts*/
-.welcome{
+.welcome {
     height: 81vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
     background-image: url('../images/Vectorrr.png');
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
     border-radius: 15px;
 }
-.welcome-content{
-    padding:0px 100px;
+
+.welcome-content {
+    padding: 0px 100px;
 }
-.welcome-content h1{
+
+.welcome-content h1 {
     font-size: 80px;
     color: white;
     padding: 0px 0px 20px;
 }
-.welcome-content p{
+
+.welcome-content p {
     font-size: 20px;
     color: rgb(226, 220, 220);
     line-height: 30px;
     padding: 0px 0px 50px;
 }
-.welcome-img img{
+
+.welcome-img img {
     width: 280px;
     margin: 0px 130px 0px 0px;
 }
 
 /*Main starts here*/
 /*Party section of main starts*/
-.party{
+.party {
     height: 80vh;
     margin: 100px;
     text-align: center;
-    background: linear-gradient(90deg, rgba(240,200,200,1) 0%, rgba(248,248,248,1) 100%);
+    background: linear-gradient(90deg, rgba(240, 200, 200, 1) 0%, rgba(248, 248, 248, 1) 100%);
     border-radius: 15px;
- }
- .party-schedule{
+}
+
+.party-schedule {
     padding: 120px 0px 0px;
- }
- .party-schedule h3{
+}
+
+.party-schedule h3 {
     padding: 0px 50px 30px;
     font-size: 40px;
- }
- .party-schedule h3 span{
+}
+
+.party-schedule h3 span {
     color: red;
- }
- 
- /*Portfolio section of main starts*/
-.portfolio{
+}
+
+/*Wishing section of main starts*/
+.offer {
+    margin: 50px 0px 0px;
+    padding: 50px 100px 0px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
+
+}
+
+.new-offer {
+    width: 60%;
+    padding: 100px 0px 0px;
+}
+
+.new-offer h5 {
+    font-size: 16px;
+    color: red;
+}
+
+.new-offer h1 {
+    font-size: 50px;
+}
+
+.new-offer p {
+    color: gray;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0px 100px 0px 0px;
+}
+
+.wishing-img {
+    border: 15px red solid;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.wishing-content h1 {
+    font-size: 50px;
+    color: red;
+    padding: 100px 50px 0px;
+}
+
+.wishing-content p {
+    color: gray;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/*Holidays sale section of main starts*/
+.holiday {
+    margin-: 120px 0px 0px;
+    text-align: center;
+}
+
+.holiday-content h5 {
+    font-size: 20px;
+    padding: 100px 0px 0px;
+}
+
+.holiday-content h1 {
+    font-size: 70px;
+}
+
+.holiday-content span {
+    color: red;
+}
+
+.holiday-content p {
+    font-size: 20px;
+    color: gray;
+    line-height: 30px;
+    margin: auto 250px;
+}
+
+.holiday-img {
+    margin: 500px 0px 0px;
+}
+
+.img-girl {
+    margin-top: 50px;
+    position: relative;
+}
+
+.img-1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 977px;
+}
+
+.img-discount {
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 350px;
+}
+
+.img-box {
+    position: relative;
+    top: 200px;
+}
+
+.img-3 {
+    width: 700px;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+}
+
+/*Portfolio section of main starts*/
+.portfolio {
     margin: 100px;
 }
-.portfolio h5{
+
+.portfolio h5 {
     font-size: 20px;
     color: red;
     padding: 0px 0px 15px;
 }
-.portfolio h1{
+
+.portfolio h1 {
     font-size: 50px;
     padding: 0px 0px 15px;
 }
-.portfolio p{
+
+.portfolio p {
     font-size: 20px;
     line-height: 25px;
     margin: 0px 450px 0px 0px;
     padding: 0px 0px 50px;
     color: gray;
 }
-.portfolio-img{
+
+.portfolio-img {
     display: flex;
     flex-flow: wrap;
     gap: 35px;
 }
-.portfolio-img img{
+
+.portfolio-img img {
     width: 400px;
 }
-.portfolio-img img:hover{
+
+.portfolio-img img:hover {
     width: 400px;
     opacity: 0.8;
     transition: all 0.8s;
-    transform:scale(1.01);
+    transform: scale(1.01);
     cursor: pointer;
 }
 
 /*Subscribe section of main starts*/
-.subscribe{
+.subscribe {
     height: 70vh;
     margin: 100px 100px 0px;
     background-color: rgb(255, 242, 242);
@@ -168,26 +300,31 @@ border-radius: 15px;
     border-radius: 15px;
     padding: 100px 50px 0px;
 }
-.subscribe h1{
+
+.subscribe h1 {
     font-size: 50px;
 }
-.subscribe p{
+
+.subscribe p {
     font-size: 20px;
     color: gray;
     line-height: 30px;
     margin: auto 230px;
 }
-.input{
-    margin-top:30px ;
+
+.input {
+    margin-top: 30px;
 }
-.input1{
+
+.input1 {
     border: none;
     padding: 20px 30px;
     outline: none;
     border-radius: 20px 0 0 20px;
     letter-spacing: 1px;
 }
-.input2{
+
+.input2 {
     border: none;
     padding: 16px 30px;
     border-radius: 0 20px 20px 0;
@@ -195,88 +332,56 @@ border-radius: 15px;
     color: white;
     font-size: 20px;
 }
-/*Wishing section of main starts*/
-.offer{
-    margin: 50px 0px 0px;
-    padding: 50px 100px 0px;
-    display: flex;
-    gap: 80px;
-    justify-content:space-evenly;
-    
-  }
-  .new-offer{
-    width: 60%;
-    padding: 100px 0px 0px;
-  }
-  .new-offer h5{
-    font-size: 16px;
-    color: red;
-  }
-  .new-offer h1{
-    font-size: 50px;
-  }
-  .new-offer p{
-    color: gray;
-    font-size: 20px;
-    line-height: 25px;
-    padding: 0px 100px 0px 0px;
-  }
-  .wishing-img{
-    border: 15px red solid;
-    border-radius: 50%;
-    padding: 30px;
-  }
-  .wishing-content h1{
-    font-size: 50px;
-    color: red;
-    padding: 100px 50px 0px;
-  }
- .wishing-content p{
-    color: gray;
-    font-size: 20px;
-    line-height: 25px;
- }
 
 /*Footer starts here*/
-.footer{
+.footer {
     height: 60vh;
     background-color: rgb(2, 2, 29);
     margin: 100px 0px 0px;
     padding: 100px 50px 0px;
 }
-.footer hr{
+
+.footer hr {
     width: 75%;
     border: 1px solid rgb(51, 51, 51);
     margin: 0px 180px 0px;
 }
-.address{
+
+.address {
     display: flex;
     justify-content: space-around;
     color: white;
 }
-.address address{
+
+.address address {
     line-height: 35px;
     font-size: 20px;
     font-weight: bold;
 }
-.phone , .website{
+
+.phone,
+.website {
     display: flex;
     gap: 20px;
     padding: 10px 0px;
 }
-.social-icon{
+
+.social-icon {
     text-align: center;
     margin: 40px auto;
 }
-.social-icon img{
+
+.social-icon img {
     margin-left: 15px;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-around;
     color: white;
     padding: 50px 0px;
 }
-.copyright h6{
+
+.copyright h6 {
     font-size: 20px;
 }
