@@ -100,11 +100,11 @@ border-radius: 15px;
 }
 .welcome-img img{
     width: 280px;
-    margin-right: 130px;
+    margin: 0px 130px 0px 0px;
 }
 
 /*Main starts here*/
-/*Party section start */
+/*Party section of main starts*/
 .party{
     height: 80vh;
     margin: 100px;
@@ -123,4 +123,38 @@ border-radius: 15px;
     color: red;
  }
  
- 
+ /*Portfolio section of main starts*/
+.portfolio{
+    margin: 100px;
+}
+.portfolio h5{
+    font-size: 20px;
+    color: red;
+    padding: 0px 0px 15px;
+}
+.portfolio h1{
+    font-size: 50px;
+    padding: 0px 0px 15px;
+}
+.portfolio p{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px 450px 0px 0px;
+    padding: 0px 0px 50px;
+    color: gray;
+}
+.portfolio-img{
+    display: flex;
+    flex-flow: wrap;
+    gap: 35px;
+}
+.portfolio-img img{
+    width: 400px;
+}
+.portfolio-img img:hover{
+    width: 400px;
+    opacity: 0.8;
+    transition: all 0.8s;
+    transform:scale(1.01);
+    cursor: pointer;
+}
